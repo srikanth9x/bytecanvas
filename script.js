@@ -224,7 +224,7 @@ function generateCssCode() {
     button {
       font-size: ${previewBtn.style.fontSize || '28px'};
       font-weight: ${previewBtn.style.fontWeight || '400'};
-      font-family: ${previewBtn.style.fontFamily || '"Happy Monkey", sans-serif'};
+      font-family: ${previewBtn.style.fontFamily || 'Nunito, sans-serif'};
       width: ${previewBtn.style.width || '160px'};
       height: ${previewBtn.style.height || '64px'};
       background-color: ${backgroundColorInput.value || '#ff4b5c'};
