@@ -38,9 +38,6 @@ While Dittoify provides useful functionality, it currently has a few limitations
 - **Mobile-Only Optimization**: Dittoify is optimized for mobile devices, and currently, the desktop version is not as polished.  
     **Reason**: This entire website was developed with code written on a mobile phone. As a result, the mobile-first approach was prioritized for ease of development. I am working on improving the desktop experience in future versions.
 
-## License:
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more details.
-
 ## Contact:
 If you have any questions, feedback, or suggestions, feel free to reach out via:
 - [GitHub](https://github.com/srikanth9x)
