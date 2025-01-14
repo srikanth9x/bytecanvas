@@ -395,6 +395,6 @@ a:hover {
 #close-popup:hover {
   background: #000000;
   color: var(--accent);
-  border: 2px solid #ff4b5c;
+  border: 2px solid var(--accent);
   transform: scale(1.1)
 }
