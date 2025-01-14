@@ -17,14 +17,12 @@ body {
 }
 
 #header {
-  position: fixed;
-  top: 0;
-  margin: 0vh 1vh 2vh 2vh;
-  margin-top: 0px;
+  position: fixed;  
+  margin: 0vh 2vh 2vh 2vh;
   padding: 0;
+  top: 0;
   left: 0;
   right: 0;
-  width: 92vw;
   z-index: 1000;
   background: #ffffff;
   border-radius: 20px;
@@ -166,7 +164,7 @@ body {
   background: #fff;
   color: #000;
   font-family: inherit;
-  width: 280px;
+  width: 100%;
   margin-bottom: 16px;
   padding: 8px;
   border: 1px solid #000;
