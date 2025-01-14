@@ -362,7 +362,7 @@ a:hover {
 }
 
 .popup-content b {
-  color: #ff4b5c;
+  color: var(--accent);
 }
 
 .popup-content ul {
