@@ -1,7 +1,7 @@
 /*General Styles*/
 
 :root {
-  --accent: #ff4b5c
+  --accent: #ff4b5c;
 }
 
 * {
@@ -53,6 +53,9 @@ body {
 #nav a {
   color: #ffffff;
 }
+#nav a:hover {
+  color: var(--accent);
+}
 
 #preview-box {
   width: 92vw;
@@ -67,7 +70,7 @@ body {
 }
 
 #preview-card {
-  background-color: #ff4b5c;
+  background-color: var(--accent);
   border-radius: 20px;
   margin: 2vh;
   box-shadow: 0 4px 8px #323232;
@@ -87,7 +90,7 @@ body {
 
 #preview-btn {
   font-family: inherit;
-  background: #ff4b5c;
+  background: var(--accent);
   color: #000;
   border: 4px solid #000;
   border-radius: 20px;
@@ -101,12 +104,10 @@ body {
 
 #preview-btn:hover {
   background: #000;
-  color: #ff4b5c;
-  border: 4px solid #ff4b5c;
+  color: var(--accent);
+  border: 4px solid var(--accent);
   transform: scale(1.1);
   transition: 0.3s ease;
-
-
 }
 
 #copy-css-btn {
@@ -379,7 +380,7 @@ a:hover {
   background: var(--accent);
   color: #000000;
   border: none;
-  border: 2px solid black;
+  border: 2px solid #000;
   border-radius: 12px;
   font-family: inherit;
   font-size: 24px;
@@ -393,7 +394,7 @@ a:hover {
 
 #close-popup:hover {
   background: #000000;
-  color: #ff4b5c;
+  color: var(--accent);
   border: 2px solid #ff4b5c;
   transform: scale(1.1)
 }
